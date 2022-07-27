@@ -4,6 +4,8 @@
  * ESP32-LPkit battery data and displaying them on the OLED.
  * We are not using ALERT pin in ths code
  * 
+ * https://github.com/LaskaKit/MAX17048-Fuel-Gauge
+ * 
  * SDA - GPIO21
  * SCL - GPIO22
  *
