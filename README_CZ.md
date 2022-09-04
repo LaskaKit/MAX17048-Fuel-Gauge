@@ -37,4 +37,12 @@ void loop()
     delay(1000);
 }
 ```
+
+## Specifikace MAX17048
+Supply voltage: 2,5 - 4,5V</br>
+Own current during hibernation mode: 3uA</br>
+Own current during normal mode: 23uA</br>
+ADC sampling period: 250ms (normal mode) or 45s (hibernation mode)</br>
+Voltage error: +-7,5mV/cell</br>
+
 Modul s Fuel Gauge můžeš koupit u nás na e-shopu https://www.laskakit.cz/laskakit-fuel-gauge-max17048-bateriovy-meric/
