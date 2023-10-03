@@ -1,7 +1,7 @@
 /*
  * This example code for Fuel Gauge - MAX17048 module
  * is used with ESP32 LPkit board.
- * ESP32-LPkit reads temperature and humidity from SHT40 sensor 
+ * ESP32-LPkit reads data from MAX17048 sensor 
  * and sends every second through UART
  * We are not using ALERT pin in ths code
  * 
@@ -15,7 +15,6 @@
  */
 
 
-#include <SPI.h>
 #include <Wire.h>
 #include "MAX17048.h" // https://github.com/hideakitai/MAX17048
 
@@ -27,6 +26,8 @@ void setup() {
   
   Wire.begin (21, 22); // for ESP32 + uŠup
   pwr_mgmt.attatch(Wire); //připojí čip MAX17048 k desce
+
+  Serial.println("Start...");
 }
 
 void loop() {
